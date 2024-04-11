@@ -847,6 +847,10 @@ button{
         font-weight: bold;
         padding: 10px 30px;
     }
+    .responsive-nav i{
+        padding: 8px 8px 8px 0px;
+        font-size: 18px;
+    }
     #checkin:checked ~.responsive-nav{
         left:0px;
       }
@@ -1753,6 +1757,10 @@ button{
         font-size: 20px;
         font-weight: bold;
         padding: 10px 10px;
+    }
+    .responsive-nav i{
+        padding: 8px 8px 8px 0px;
+        font-size: 18px;
     }
     #checkin:checked ~.responsive-nav{
         left:0px;
