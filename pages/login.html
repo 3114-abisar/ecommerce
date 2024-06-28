@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <title>Register</title>
+</head>
+<body>
+    
+    <div class="content">
+        <h2>Registration Form</h2>
+        <h3>E-MAIL:</h3>
+        <input type="email" placeholder="Enter Email-id" class="email">
+        <h3>PASSWORD:</h3>
+        <input type="text" placeholder="Enter Password" class="password">
+        <h3>FULLNAME:</h3>
+        <input type="text" placeholder="Enter your Name">
+        <a href="../index.html"><button class="rbtn" onclick="module.register()">Register Now</button></a>
+        <span class="error" style="color: red;"></span>
+    </div>
+
+    <div class="content-1">
+        <h2>Login Form</h2>
+        <h3>E-MAIL:</h3>
+        <input type="email" placeholder="Enter Email-id" class="lemail">
+        <h3>PASSWORD:</h3>
+        <input type="text" placeholder="Enter Password" class="lpassword">
+        <button class="lbtn" onclick="module.login()">Login</button>
+        <span class="error1" style="color: red;"></span>
+    </div>
+
+    <script type="module" src="../javascript/login1.js"></script>
+    <script src="../javascript/module.js"></script>
+    
+</body>
+</html>

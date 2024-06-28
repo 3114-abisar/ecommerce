@@ -12,6 +12,59 @@
 
 </head>
 <body>
+    <div class="cartBox">
+        <div class="topsec">
+            <img class="checkout" src="../assets/images/logout.png">
+            <h2>My cart</h2>
+        </div>
+
+        <div class="cart-product-hold">
+
+            <img class="cart-empty" src="../assets/images/empty-cart.png">
+
+        <!-- <div class="cartProducts">
+            <img src="../assets/imageS/product8.jpg" alt=" ">
+            <div class="cproductInfo">
+                <h1 class="productName">Chocolate Tarts</h1>
+                <h1 class="productPrice">$188.42</h1>
+                <div class="product-count"> <input type="number" name="" class="productNos" id=""  value="1"> <h2 class="totalProductPrice"></h2></div>
+            </div>
+            <i class="fa-solid fa-trash"></i>
+        </div>
+
+        <div class="cartProducts">
+            <img src="../assets/imageS/product8.jpg" alt=" ">
+            <div class="cproductInfo">
+                <h1 class="productName">Chocolate Tarts</h1>
+                <h1 class="productPrice">$188.42</h1>
+                <div class="product-count"> <input type="number" name="" class="productNos" id=""  value="1"> <h2 class="totalProductPrice"></h2></div>
+            </div>
+            <i class="fa-solid fa-trash"></i>
+        </div>
+
+        <div class="cartProducts">
+            <img src="../assets/imageS/product8.jpg" alt=" ">
+            <div class="cproductInfo">
+                <h1 class="productName">Chocolate Tarts</h1>
+                <h1 class="productPrice">$188.42</h1>
+                <div class="product-count"> <input type="number" name="" class="productNos" id=""  value="1"> <h2 class="totalProductPrice"></h2></div>
+            </div>
+            <i class="fa-solid fa-trash"></i>
+        </div> -->
+
+        </div>
+        
+
+        <div class="bottomsec">
+            <h3>Total</h3>
+            <p class="total-amount">Rs.0</p>
+        </div>
+        <div class="btnsec">
+            <button>Order Now</button>
+            <button>Check Out</button>
+        </div>
+
+    </div> 
     <div class="topnav">
 
         <input type="checkbox" id="checkin">
@@ -46,7 +99,8 @@
             <i class="fa-solid fa-magnifying-glass" style="color: #2c2b2b;"></i>
             <i class="fa-regular fa-heart" style="color: #18191b;"></i>            
             <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-cart-shopping"></i>            
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cartNotify"></span>          
         </div>
 
       
@@ -84,6 +138,11 @@
             <hr>
         </div>
     </div>
+
+    <h2 class="productAddNotify">PRODUCT ADDED SUCCESSFULLY !!!!</h2>
+    <h2 class="productRemoveNotify"> Product removed from Cart !</h2>
+
+
 
     <div class="categorizes">
         <div class="catdet">
@@ -128,18 +187,16 @@
             </div>
         </div>
 
-
-
         <div class="products">
             <div class="product1">
             <div class="productavailable">
-                <img src="../assets/images/product1.jpg">
+                <img class="productavailable" src="../assets/images/product1.jpg">
             </div>
             <div class="details">
             <p>Beauty and Healthy</p>
-            <h3>8th Muse</h3>
-            <h4>$118.19</h4>
-            <button>Add to cart</button>
+            <h3 class="prname">8th Muse</h3>
+            <h4 class="prprice">$118.19</h4>
+            <button class="cart-btn">Add to cart</button>
             </div>
             </div>
 
@@ -149,9 +206,9 @@
                 </div>
                 <div class="details">
                 <p>Food and Grocery</p>
-                <h3>Amaretti Cookie</h3>
-                <h4>$103.45</h4>
-                <button>Add to cart</button>
+                <h3 class="prname">Amaretti Cookie</h3>
+                <h4 class="prprice">$103.45</h4>
+                <button class="cart-btn">Add to cart</button>
                 </div>
             </div>
 
@@ -161,9 +218,9 @@
                     </div>
                     <div class="details">
                     <p>Food and Grocery</p>
-                    <h3>Amaretti Cookie</h3>
-                    <h4>$162.66</h4>
-                    <button>Add to cart</button>
+                    <h3 class="prname">Fine Green Grapes</h3>
+                    <h4 class="prprice">$162.66</h4>
+                    <button class="cart-btn">Add to cart</button>
                     </div>
             </div>
                     <div class="product1">
@@ -172,9 +229,9 @@
                         </div>
                         <div class="details">
                         <p>Food and Grocery</p>
-                        <h3>Blueberry Danish Round</h3>
-                        <h4>$115.61</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Blueberry Danish Round</h3>
+                        <h4 class="prprice">$115.61</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
                     <div class="product1">
@@ -183,9 +240,9 @@
                             </div>
                             <div class="details">
                             <p>Food & Grocery</p>
-                            <h3>Blueberry Danish Round</h3>
-                            <h4>$131.41</h4>
-                            <button>Add to cart</button>
+                            <h3 class="prname">PineApple Fruit</h3>
+                            <h4 class="prprice">$131.41</h4>
+                            <button class="cart-btn">Add to cart</button>
                             </div>
                     </div>
                     <div class="product1">
@@ -194,9 +251,9 @@
                                 </div>
                                 <div class="details">
                                 <p>Food & Grocery</p>
-                                <h3>Blueberry Danish Round</h3>
-                                <h4>$119.36</h4>
-                                <button>Add to cart</button>
+                                <h3 class="prname">Garlic Bread</h3>
+                                <h4 class="prprice">$119.36</h4>
+                                <button class="cart-btn">Add to cart</button>
                                 </div>
                     </div>
 
@@ -206,9 +263,9 @@
                         </div>
                         <div class="details">
                         <p>Food & Grocery,Garden & Kitchen</p>
-                        <h3>Blueberry Danish Round</h3>
-                        <h4>$177.33</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Mango Bliss Drink</h3>
+                        <h4 class="prprice">$177.33</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
 
@@ -218,9 +275,9 @@
                         </div>
                         <div class="details">
                         <p>Food & Grocery</p>
-                        <h3>Blueberry Danish Round</h3>
-                        <h4>$156.69</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Nutella Chocolate</h3>
+                        <h4 class="prprice">$156.69</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
 
@@ -230,9 +287,9 @@
                         </div>
                         <div class="details">
                         <p>Food & Grocery</p>
-                        <h3>Chocolate Tarts</h3>
-                        <h4>$187.26</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Chocolate Tarts</h3>
+                        <h4 class="prprice">$187.26</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
 
@@ -242,9 +299,9 @@
                         </div>
                         <div class="details">
                         <p>Food & Grocery</p>
-                        <h3>Chocolate Tarts</h3>
-                        <h4>$188.42</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Sweet Cherries Tarts</h3>
+                        <h4 class="prprice">$188.42</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
 
@@ -254,9 +311,9 @@
                         </div>
                         <div class="details">
                         <p>Food & Groceryy</p>
-                        <h3>Ciabatta</h3>
-                        <h4>$199.14</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Ciabatta</h3>
+                        <h4 class="prprice">$199.14</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
 
@@ -266,9 +323,9 @@
                         </div>
                         <div class="details">
                         <p>Food and Grocery</p>
-                        <h3>Ciabatta</h3>
-                        <h4>$167.55</h4>
-                        <button>Add to cart</button>
+                        <h3 class="prname">Beef Steak Mince</h3>
+                        <h4 class="prprice">$167.55</h4>
+                        <button class="cart-btn">Add to cart</button>
                         </div>
                     </div>
         </div>
@@ -325,11 +382,13 @@
                 <img src="../assets/images/payment.png">
             </div>
     </div>
+
+  
     
+
+    <script src="../javascript/shop.js"></script>
 </body>
 </html>
    
     
 
-</body>
-</html>
